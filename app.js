@@ -19,13 +19,13 @@ function addClass(event) {
 }
 
 
-var resetAll = function() {
+function resetAll() {
 	list_items = document.querySelectorAll("li");  
 	for (var i = 0; i < list_items.length; i++) {
 		list_items[i].className = ""; 
 	}
 	document.querySelector("img").setAttribute("src", "./images/panic.jpeg");
-};
+}
 
 
 

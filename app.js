@@ -36,7 +36,6 @@ var resetAll = function() {
 window.addEventListener("load", function() {
 	var greetMsg = document.getElementById("greeting").innerHTML;
 	var list = document.getElementsByTagName("li");
-	var grabAllItems = document.querySelectorAll("body");
 
 	changeGreet(greetMsg);
 	listToYellow(list);

@@ -28,11 +28,6 @@ function resetAll() {
 }
 
 
-
-
-
-
-
 window.addEventListener("load", function() {
 	var greetMsg = document.getElementById("greeting").innerHTML;
 	var list = document.getElementsByTagName("li");
@@ -40,11 +35,4 @@ window.addEventListener("load", function() {
 	changeGreet(greetMsg);
 	listToYellow(list);
 	document.getElementById("reset").addEventListener("click", resetAll);
-
-
-
-
-
-
-
 });
